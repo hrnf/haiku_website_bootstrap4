@@ -682,6 +682,9 @@ footer a, footer span.glyphicon {
 	#main-front a {
 		color: #DDDFFF;
 	}
+	table {
+		color: #CCC;
+	}
 	div.node table th {
 		color: #CCC;
 		background-color: #333;
@@ -693,10 +696,6 @@ footer a, footer span.glyphicon {
 		width: 100%;
 		border: 1px solid #888;
 		margin: 20px 0px 20px 0px;
-	}
-	div.node table th {
-		padding: 2px;
-		background-color: #ddd;
 	}
 	div.node table td {
 		padding: 2px;
