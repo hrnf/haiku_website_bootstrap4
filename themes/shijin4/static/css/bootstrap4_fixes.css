@@ -122,8 +122,26 @@ pre {
 	border-radius: 4px;
 }
 
+/* In the haiku slideshow pages, slideshow.css adds padding to the navbar */
+.nav-item {
+	padding: 0px;
+}
+
 @media (prefers-color-scheme: dark) {
 	.nav-tabs {
 		border-bottom: 1px solid transparent;
+	}
+
+	/* Adjust table colors */
+	div.node table th {
+		background-color: #2d2d2d;
+	}
+	table {
+		color: #ccc;
+	}
+
+	/* Adjust slideshow text color */
+	p.caption {
+		color: #ccc;
 	}
 }

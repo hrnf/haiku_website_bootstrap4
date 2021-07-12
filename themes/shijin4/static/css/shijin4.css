@@ -441,14 +441,23 @@ div.node table td {
 div.alert-danger {
 	background: #f2dede url(/images/Alert_Stop_32.png) 15px 15px no-repeat;
 	padding-left: 60px;
+
+	/* Adjust height for one-line alerts */
+	min-height: 65px;
 }
 div.alert-warning {
 	background: #fcf8e3 url(/images/Alert_Warning_32.png) 15px 15px no-repeat;
 	padding-left: 60px;
+
+	/* Adjust height for one-line alerts */
+	min-height: 65px;
 }
 div.alert-info {
 	background: #d9edf7 url(/images/Alert_Info_32.png) 15px 15px no-repeat;
 	padding-left: 60px;
+
+	/* Adjust height for one-line alerts */
+	min-height: 65px;
 }
 div.alert a {
 	text-decoration: underline;
@@ -782,5 +791,11 @@ footer a, footer span.glyphicon {
 		font-family: monospace;
 		padding: 2px;
 		border-radius: 3px;
+	}
+	figure {
+		background: none;
+	}
+	figcaption p.step {
+		background: #2d2d2d;
 	}
 }
